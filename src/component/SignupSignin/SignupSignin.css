@@ -1,0 +1,128 @@
+.container {
+  display: flexbox;
+  flex-direction: column;
+  /* margin: auto; */
+  margin-top: 50px;
+  background-color: azure;
+  padding-bottom: 30px;
+  justify-content: center;
+  align-items: center;
+  width: 340px;
+  height: 500px;
+  /* margin-bottom: 10px; */
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20Spx;
+  width: 300px;
+
+  margin-top: 60px;
+
+  justify-content: center;
+  margin: auto;
+}
+
+.text {
+  color: blueviolet;
+  font-size: 48px;
+  font-weight: 700;
+}
+
+.inputs {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.underline {
+  width: 61px;
+  height: 6px;
+  background: #3c009d;
+  border-radius: 8px;
+}
+
+.input {
+  display: flex;
+  align-items: center;
+  margin: auto;
+  width: 300px;
+  height: 60px;
+  background: #fff;
+  border-radius: 6px;
+}
+
+.forgot_passward {
+  /* padding-left: 62px; */
+  /* margin-top: 27px; */
+  color: #797979;
+  font-size: 16px;
+  margin-right: 8px;
+  margin-left: 23px;
+}
+
+.clickhere {
+  text-decoration: underline; /* Example underline, adjust as needed */
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.submit_container {
+  display: flex;
+  gap: 30px;
+  margin: 60px auto;
+  align-items: center;
+  justify-content: center;
+
+  width: 300px;
+}
+
+.submit {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 40px;
+  color: #fff;
+  background: #4c00b4;
+  border-radius: 50px;
+  font-size: 19px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.input_img {
+  margin: 0px 30px;
+}
+
+.input_input {
+}
+
+.forgot_passward_span {
+  color: #3c009d;
+  cursor: pointer;
+
+  display: flex;
+
+  margin: auto;
+  width: 300px;
+}
+
+.input-box {
+  width: 100%;
+  margin-right: 10px;
+  padding: 8px; /* Adjust as needed for input box padding */
+  box-sizing: border-box; /* Ensure padding is included in the width */
+  border: 1px solid #ccc; /* Add any additional styling you want for the input box */
+}
+
+parent_container {
+  display: flex;
+  align-items: center;
+  margin: auto;
+  margin-top: 50px;
+  justify-content: center;
+}
